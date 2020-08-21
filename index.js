@@ -9,4 +9,4 @@ Client.on("ready", () => {
 
 });
 
-Client.login("NzQ0Mjc1MTU4MjcyODM1NjQ0.Xzg2QQ.nPsTTpALVylzTodBGS32RmoXI0I");
+Client.login("NzQ0Mjc1MTU4MjcyODM1NjQ0.Xzg2QQ.poWWNxkR2SphrAbUw93QctCjxvQ");
