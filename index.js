@@ -4,10 +4,6 @@ const Client = new Discord.Client;
 
 const prefix = "avm!";
 
-client.once ('Démarage réussit', () => {
-console.log('Démarage réussit')
-});
-
 Client.on("ready", () => {
     console.log("bot opérationnel");
 
