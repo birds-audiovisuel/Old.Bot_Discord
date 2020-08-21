@@ -1,0 +1,22 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "Ce projet n'est autre que la réalisation d'un bot discord qui aura un maximum de fonctionnalitées.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audiovisuelmontage/Discord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audiovisuelmontage/Discord/issues"
+  },
+  "homepage": "https://github.com/audiovisuelmontage/Discord#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
