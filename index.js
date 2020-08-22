@@ -1,12 +1,19 @@
 const Discord = require("discord.js");
 
+const { prefix, token } = require ('./config.json')
+
 const Client = new Discord.Client;
 
-const prefix = "avm!";
-
-Client.on("ready", () => {
+Client.once("ready", () => {
     console.log("bot opérationnel");
 
 });
 
-Client.login("NzQ0Mjc1MTU4MjcyODM1NjQ0.Xzg2QQ.RzL2YxtAvop09HR-vIpRkhi2HU8");
+client.on('message', (message) => {
+    if (message.content === `${prefix}help`) {
+        message.channel.send ('Bonjour je suis en dévelloppement désolé pour l'+ "'" + 'attente '):
+    }
+
+}):
+
+Client.login(token);
